@@ -1,0 +1,2 @@
+astar_planner:beginner_tutorials:helloworld
+-DCATKIN_DEVEL_PREFIX=/home/wwb/ROS/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wwb/ROS/catkin_ws/install -G Unix Makefiles

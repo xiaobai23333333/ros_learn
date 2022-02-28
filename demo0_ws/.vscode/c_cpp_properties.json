@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/wwb/planner/ntnu/gbplanner2_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/exploration/adaptive_obb_ros/adaptive_obb/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/misc/eigen_checks/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/exploration/gbplanner_ros/gbplanner/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/exploration/gbplanner_ros/kdtree/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/sim/lidar_simulator/lidar_gazebo_plugins/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/misc/mav_comm/mav_msgs/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/misc/mav_comm/mav_planning_msgs/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/misc/minkindr/minkindr/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/misc/minkindr_ros/minkindr_conversions/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/exploration/pci_general/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/exploration/gbplanner_ros/planner_common/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/exploration/gbplanner_ros/planner_control_interface/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/sim/rotors_simulator/rotors_control/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/sim/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/sim/rotors_simulator/rotors_joy_interface/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/sim/smb_simulator/smb_path_tracker/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/mapping/voxblox/voxblox/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/mapping/voxblox/voxblox_ros/include/**",
+        "/home/wwb/planner/ntnu/gbplanner2_ws/src/mapping/voxblox/voxblox_rviz_plugin/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

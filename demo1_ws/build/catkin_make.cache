@@ -1,0 +1,2 @@
+plumbing_param_server:plumbing_pub_sub:plumbing_server_client:plumbing_test
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/wwb/ROS/demo1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wwb/ROS/demo1_ws/install -G Unix Makefiles

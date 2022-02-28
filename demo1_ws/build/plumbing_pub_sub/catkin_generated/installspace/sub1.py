@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import rospy
+from std_msgs.msg import String
+
+def doMsg(msg):
+    rospy.loginfo("sub订阅的数据： %s",msg.data)
+
+
+if __name__ == "__main__":
+    rospy.init_node("sub1")
+    sub = rospy.Subscriber("che",String,doMsg, queue_size=10)
+    rospy.spin()

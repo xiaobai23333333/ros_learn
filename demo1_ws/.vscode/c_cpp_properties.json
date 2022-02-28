@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/wwb/ROS/demo1_ws/src/plumbing_pub_sub/include/**",
+        "/home/wwb/ROS/demo1_ws/devel/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "cStandard": "c11",
+      "cppStandard":"c++17"     
+    }
+  ],
+  "version": 4
+}

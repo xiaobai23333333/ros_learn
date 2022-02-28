@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/wwb/planner/ntnu/gbplanner2_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/wwb/ROS/demo1_ws/devel/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "sstream": "cpp"
+    },
+    "python.analysis.extraPaths": [
+        "/home/wwb/planner/ntnu/gbplanner2_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/wwb/ROS/demo1_ws/devel/lib/python3/dist-packages"
+    ]
+}
