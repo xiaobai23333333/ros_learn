@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/wwb/ROS/demo0_ws/devel/setup.sh

@@ -1,0 +1,9 @@
+<launch>
+    <!-- 导入对应urdf文件 -->
+    <param name="robot_description" textfile="$(find urdf01_rviz)/urdf/urdf/demo05_test.urdf" />
+    <!-- 导入其他一些辅助功能包 -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find urdf01_rviz)/config/show_mycar.rviz" />
+    <!-- 发布关节与机器人的坐标关系 -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+</launch>

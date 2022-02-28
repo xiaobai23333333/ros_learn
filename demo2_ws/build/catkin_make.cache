@@ -1,0 +1,2 @@
+plumbing_head:plumbing_head_src:tf01_static:tf02_dynamic:tf03_tfs:tf04_test
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/wwb/ROS/demo0_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wwb/ROS/demo0_ws/install -G Unix Makefiles
