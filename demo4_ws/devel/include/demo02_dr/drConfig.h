@@ -456,9 +456,9 @@ drConfig::GroupDescription<drConfig::DEFAULT, drConfig> Default("Default", "", 0
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __default__.list_param = 0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(drConfig::AbstractParamDescriptionConstPtr(new drConfig::ParamDescription<int>("list_param", "int", 0, "列表参数", "{'enum': [{'name': 'small', 'type': 'int', 'value': 0, 'srcline': 24, 'srcfile': '/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'mediun', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'big', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::list_param)));
+      Default.abstract_parameters.push_back(drConfig::AbstractParamDescriptionConstPtr(new drConfig::ParamDescription<int>("list_param", "int", 0, "列表参数", "{'enum': [{'name': 'small', 'type': 'int', 'value': 0, 'srcline': 24, 'srcfile': '/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'mediun', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'big', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::list_param)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(drConfig::AbstractParamDescriptionConstPtr(new drConfig::ParamDescription<int>("list_param", "int", 0, "列表参数", "{'enum': [{'name': 'small', 'type': 'int', 'value': 0, 'srcline': 24, 'srcfile': '/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'mediun', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'big', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::list_param)));
+      __param_descriptions__.push_back(drConfig::AbstractParamDescriptionConstPtr(new drConfig::ParamDescription<int>("list_param", "int", 0, "列表参数", "{'enum': [{'name': 'small', 'type': 'int', 'value': 0, 'srcline': 24, 'srcfile': '/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'mediun', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'big', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::list_param)));
 //#line 246 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -538,11 +538,11 @@ drConfig::GroupDescription<drConfig::DEFAULT, drConfig> Default("Default", "", 0
     return statics;
   }
 
-//#line 24 "/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg"
+//#line 24 "/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg"
       const int dr_small = 0;
-//#line 25 "/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg"
+//#line 25 "/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg"
       const int dr_mediun = 1;
-//#line 26 "/home/wwb/ROS/demo2_ws/src/demo02_dr/cfg/dr.cfg"
+//#line 26 "/home/wwb/ROS/demo4_ws/src/demo02_dr/cfg/dr.cfg"
       const int dr_big = 2;
 }
 

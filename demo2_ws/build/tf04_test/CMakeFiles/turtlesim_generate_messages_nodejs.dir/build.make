@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wwb/ROS/demo0_ws/src
+CMAKE_SOURCE_DIR = /home/wwb/ROS/demo2_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wwb/ROS/demo0_ws/build
+CMAKE_BINARY_DIR = /home/wwb/ROS/demo2_ws/build
 
 # Utility rule file for turtlesim_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build: turtlesim_gen
 .PHONY : tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
 
 tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
-	cd /home/wwb/ROS/demo0_ws/build/tf04_test && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/wwb/ROS/demo2_ws/build/tf04_test && $(CMAKE_COMMAND) -P CMakeFiles/turtlesim_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
 
 tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend:
-	cd /home/wwb/ROS/demo0_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwb/ROS/demo0_ws/src /home/wwb/ROS/demo0_ws/src/tf04_test /home/wwb/ROS/demo0_ws/build /home/wwb/ROS/demo0_ws/build/tf04_test /home/wwb/ROS/demo0_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wwb/ROS/demo2_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwb/ROS/demo2_ws/src /home/wwb/ROS/demo2_ws/src/tf04_test /home/wwb/ROS/demo2_ws/build /home/wwb/ROS/demo2_ws/build/tf04_test /home/wwb/ROS/demo2_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
 

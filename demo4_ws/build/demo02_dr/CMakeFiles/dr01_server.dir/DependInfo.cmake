@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wwb/ROS/demo2_ws/src/demo02_dr/src/dr01_server.cpp" "/home/wwb/ROS/demo2_ws/build/demo02_dr/CMakeFiles/dr01_server.dir/src/dr01_server.cpp.o"
+  "/home/wwb/ROS/demo4_ws/src/demo02_dr/src/dr01_server.cpp" "/home/wwb/ROS/demo4_ws/build/demo02_dr/CMakeFiles/dr01_server.dir/src/dr01_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/wwb/ROS/demo2_ws/src/demo02_dr/BEFORE"
-  "/home/wwb/ROS/demo2_ws/devel/include"
+  "/home/wwb/ROS/demo4_ws/src/demo02_dr/BEFORE"
+  "/home/wwb/ROS/demo4_ws/devel/include"
   )
 
 # Targets to which this target links.

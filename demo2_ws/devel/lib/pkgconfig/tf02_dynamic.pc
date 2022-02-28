@@ -1,4 +1,4 @@
-prefix=/home/wwb/ROS/demo0_ws/devel
+prefix=/home/wwb/ROS/demo2_ws/devel
 
 Name: tf02_dynamic
 Description: Description of tf02_dynamic

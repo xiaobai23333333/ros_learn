@@ -1,4 +1,4 @@
-prefix=/home/wwb/ROS/demo0_ws/install
+prefix=/home/wwb/ROS/demo2_ws/install
 
 Name: tf04_test
 Description: Description of tf04_test

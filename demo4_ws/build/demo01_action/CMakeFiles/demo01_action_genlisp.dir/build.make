@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wwb/ROS/demo2_ws/src
+CMAKE_SOURCE_DIR = /home/wwb/ROS/demo4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wwb/ROS/demo2_ws/build
+CMAKE_BINARY_DIR = /home/wwb/ROS/demo4_ws/build
 
 # Utility rule file for demo01_action_genlisp.
 
@@ -63,10 +63,10 @@ demo01_action/CMakeFiles/demo01_action_genlisp.dir/build: demo01_action_genlisp
 .PHONY : demo01_action/CMakeFiles/demo01_action_genlisp.dir/build
 
 demo01_action/CMakeFiles/demo01_action_genlisp.dir/clean:
-	cd /home/wwb/ROS/demo2_ws/build/demo01_action && $(CMAKE_COMMAND) -P CMakeFiles/demo01_action_genlisp.dir/cmake_clean.cmake
+	cd /home/wwb/ROS/demo4_ws/build/demo01_action && $(CMAKE_COMMAND) -P CMakeFiles/demo01_action_genlisp.dir/cmake_clean.cmake
 .PHONY : demo01_action/CMakeFiles/demo01_action_genlisp.dir/clean
 
 demo01_action/CMakeFiles/demo01_action_genlisp.dir/depend:
-	cd /home/wwb/ROS/demo2_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwb/ROS/demo2_ws/src /home/wwb/ROS/demo2_ws/src/demo01_action /home/wwb/ROS/demo2_ws/build /home/wwb/ROS/demo2_ws/build/demo01_action /home/wwb/ROS/demo2_ws/build/demo01_action/CMakeFiles/demo01_action_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wwb/ROS/demo4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwb/ROS/demo4_ws/src /home/wwb/ROS/demo4_ws/src/demo01_action /home/wwb/ROS/demo4_ws/build /home/wwb/ROS/demo4_ws/build/demo01_action /home/wwb/ROS/demo4_ws/build/demo01_action/CMakeFiles/demo01_action_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : demo01_action/CMakeFiles/demo01_action_genlisp.dir/depend
 

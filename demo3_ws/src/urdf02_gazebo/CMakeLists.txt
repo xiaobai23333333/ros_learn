@@ -8,9 +8,10 @@ project(urdf02_gazebo)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  gazebo_control
+  gazebo_ros_control
   gazebo_plugins
   gazebo_ros
+  xacro
   urdf
 )
 

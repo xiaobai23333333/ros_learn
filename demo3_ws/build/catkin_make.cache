@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/wwb/ROS/demo1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wwb/ROS/demo1_ws/install -G Unix Makefiles
+nav_demo:urdf01_rviz:urdf02_gazebo
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/wwb/ROS/demo3_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wwb/ROS/demo3_ws/install -G Unix Makefiles

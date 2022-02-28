@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/wwb/ROS/demo0_ws/devel/lib/libhead_src.pdb"
-  "/home/wwb/ROS/demo0_ws/devel/lib/libhead_src.so"
+  "/home/wwb/ROS/demo2_ws/devel/lib/libhead_src.pdb"
+  "/home/wwb/ROS/demo2_ws/devel/lib/libhead_src.so"
   "CMakeFiles/head_src.dir/src/hello.cpp.o"
 )
 

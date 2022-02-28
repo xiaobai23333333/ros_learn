@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/manifest.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsAction.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsActionFeedback.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsActionGoal.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsActionResult.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsFeedback.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsGoal.l"
-  "/home/wwb/ROS/demo2_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsResult.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/manifest.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsAction.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsActionFeedback.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsActionGoal.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsActionResult.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsFeedback.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsGoal.l"
+  "/home/wwb/ROS/demo4_ws/devel/share/roseus/ros/demo01_action/msg/AddIntsResult.l"
   "CMakeFiles/demo01_action_generate_messages_eus"
 )
 

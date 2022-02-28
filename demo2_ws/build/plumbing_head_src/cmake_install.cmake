@@ -1,8 +1,8 @@
-# Install script for directory: /home/wwb/ROS/demo0_ws/src/plumbing_head_src
+# Install script for directory: /home/wwb/ROS/demo2_ws/src/plumbing_head_src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wwb/ROS/demo0_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wwb/ROS/demo2_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wwb/ROS/demo0_ws/build/plumbing_head_src/catkin_generated/installspace/plumbing_head_src.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wwb/ROS/demo2_ws/build/plumbing_head_src/catkin_generated/installspace/plumbing_head_src.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_head_src/cmake" TYPE FILE FILES
-    "/home/wwb/ROS/demo0_ws/build/plumbing_head_src/catkin_generated/installspace/plumbing_head_srcConfig.cmake"
-    "/home/wwb/ROS/demo0_ws/build/plumbing_head_src/catkin_generated/installspace/plumbing_head_srcConfig-version.cmake"
+    "/home/wwb/ROS/demo2_ws/build/plumbing_head_src/catkin_generated/installspace/plumbing_head_srcConfig.cmake"
+    "/home/wwb/ROS/demo2_ws/build/plumbing_head_src/catkin_generated/installspace/plumbing_head_srcConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_head_src" TYPE FILE FILES "/home/wwb/ROS/demo0_ws/src/plumbing_head_src/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_head_src" TYPE FILE FILES "/home/wwb/ROS/demo2_ws/src/plumbing_head_src/package.xml")
 endif()
 

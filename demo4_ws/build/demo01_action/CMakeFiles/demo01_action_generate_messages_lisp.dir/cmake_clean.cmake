@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsAction.lisp"
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsActionFeedback.lisp"
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsActionGoal.lisp"
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsActionResult.lisp"
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsFeedback.lisp"
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsGoal.lisp"
-  "/home/wwb/ROS/demo2_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsResult.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsAction.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsActionFeedback.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsActionGoal.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsActionResult.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsFeedback.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsGoal.lisp"
+  "/home/wwb/ROS/demo4_ws/devel/share/common-lisp/ros/demo01_action/msg/AddIntsResult.lisp"
   "CMakeFiles/demo01_action_generate_messages_lisp"
 )
 

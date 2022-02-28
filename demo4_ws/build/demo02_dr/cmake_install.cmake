@@ -1,8 +1,8 @@
-# Install script for directory: /home/wwb/ROS/demo2_ws/src/demo02_dr
+# Install script for directory: /home/wwb/ROS/demo4_ws/src/demo02_dr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wwb/ROS/demo2_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wwb/ROS/demo4_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/demo02_dr" TYPE FILE FILES "/home/wwb/ROS/demo2_ws/devel/include/demo02_dr/drConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/demo02_dr" TYPE FILE FILES "/home/wwb/ROS/demo4_ws/devel/include/demo02_dr/drConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/demo02_dr" TYPE FILE FILES "/home/wwb/ROS/demo2_ws/devel/lib/python3/dist-packages/demo02_dr/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/demo02_dr" TYPE FILE FILES "/home/wwb/ROS/demo4_ws/devel/lib/python3/dist-packages/demo02_dr/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/wwb/ROS/demo2_ws/devel/lib/python3/dist-packages/demo02_dr/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/wwb/ROS/demo4_ws/devel/lib/python3/dist-packages/demo02_dr/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/demo02_dr" TYPE DIRECTORY FILES "/home/wwb/ROS/demo2_ws/devel/lib/python3/dist-packages/demo02_dr/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/demo02_dr" TYPE DIRECTORY FILES "/home/wwb/ROS/demo4_ws/devel/lib/python3/dist-packages/demo02_dr/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wwb/ROS/demo2_ws/build/demo02_dr/catkin_generated/installspace/demo02_dr.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wwb/ROS/demo4_ws/build/demo02_dr/catkin_generated/installspace/demo02_dr.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo02_dr/cmake" TYPE FILE FILES
-    "/home/wwb/ROS/demo2_ws/build/demo02_dr/catkin_generated/installspace/demo02_drConfig.cmake"
-    "/home/wwb/ROS/demo2_ws/build/demo02_dr/catkin_generated/installspace/demo02_drConfig-version.cmake"
+    "/home/wwb/ROS/demo4_ws/build/demo02_dr/catkin_generated/installspace/demo02_drConfig.cmake"
+    "/home/wwb/ROS/demo4_ws/build/demo02_dr/catkin_generated/installspace/demo02_drConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo02_dr" TYPE FILE FILES "/home/wwb/ROS/demo2_ws/src/demo02_dr/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo02_dr" TYPE FILE FILES "/home/wwb/ROS/demo4_ws/src/demo02_dr/package.xml")
 endif()
 

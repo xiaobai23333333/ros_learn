@@ -1,4 +1,4 @@
-prefix=/home/wwb/ROS/demo2_ws/install
+prefix=/home/wwb/ROS/demo4_ws/install
 
 Name: demo01_action
 Description: Description of demo01_action

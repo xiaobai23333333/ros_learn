@@ -6,4 +6,4 @@ import rospy
 if __name__ == "__main__":
     rospy.init_node("hello_p")
 
-    rospy.loginfo("hello vscode! Python实现")
+    rospy.loginfo("hello vscode! Python实现") 

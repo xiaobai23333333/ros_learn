@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/wwb/ROS/demo2_ws/devel/lib/demo02_dr/dr01_server"
-  "/home/wwb/ROS/demo2_ws/devel/lib/demo02_dr/dr01_server.pdb"
+  "/home/wwb/ROS/demo4_ws/devel/lib/demo02_dr/dr01_server"
+  "/home/wwb/ROS/demo4_ws/devel/lib/demo02_dr/dr01_server.pdb"
   "CMakeFiles/dr01_server.dir/src/dr01_server.cpp.o"
 )
 

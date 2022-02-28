@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/wwb/ROS/demo0_ws/devel/lib/tf02_dynamic/demo01_dynamic_pub"
-  "/home/wwb/ROS/demo0_ws/devel/lib/tf02_dynamic/demo01_dynamic_pub.pdb"
+  "/home/wwb/ROS/demo2_ws/devel/lib/tf02_dynamic/demo01_dynamic_pub"
+  "/home/wwb/ROS/demo2_ws/devel/lib/tf02_dynamic/demo01_dynamic_pub.pdb"
   "CMakeFiles/demo01_dynamic_pub.dir/src/demo01_dynamic_pub.cpp.o"
 )
 

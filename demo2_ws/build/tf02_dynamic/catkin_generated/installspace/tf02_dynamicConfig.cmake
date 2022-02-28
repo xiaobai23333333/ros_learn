@@ -67,14 +67,14 @@ set(tf02_dynamic_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf02_dynamic_SOURCE_PREFIX /home/wwb/ROS/demo0_ws/src/tf02_dynamic)
-  set(tf02_dynamic_DEVEL_PREFIX /home/wwb/ROS/demo0_ws/devel)
+  set(tf02_dynamic_SOURCE_PREFIX /home/wwb/ROS/demo2_ws/src/tf02_dynamic)
+  set(tf02_dynamic_DEVEL_PREFIX /home/wwb/ROS/demo2_ws/devel)
   set(tf02_dynamic_INSTALL_PREFIX "")
   set(tf02_dynamic_PREFIX ${tf02_dynamic_DEVEL_PREFIX})
 else()
   set(tf02_dynamic_SOURCE_PREFIX "")
   set(tf02_dynamic_DEVEL_PREFIX "")
-  set(tf02_dynamic_INSTALL_PREFIX /home/wwb/ROS/demo0_ws/install)
+  set(tf02_dynamic_INSTALL_PREFIX /home/wwb/ROS/demo2_ws/install)
   set(tf02_dynamic_PREFIX ${tf02_dynamic_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/wwb/ROS/demo0_ws/install/lib;/home/wwb/ROS/demo0_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/wwb/ROS/demo2_ws/install/lib;/home/wwb/planner/ntnu/gbplanner2_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

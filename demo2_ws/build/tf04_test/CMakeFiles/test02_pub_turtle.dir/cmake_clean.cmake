@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/wwb/ROS/demo0_ws/devel/lib/tf04_test/test02_pub_turtle"
-  "/home/wwb/ROS/demo0_ws/devel/lib/tf04_test/test02_pub_turtle.pdb"
+  "/home/wwb/ROS/demo2_ws/devel/lib/tf04_test/test02_pub_turtle"
+  "/home/wwb/ROS/demo2_ws/devel/lib/tf04_test/test02_pub_turtle.pdb"
   "CMakeFiles/test02_pub_turtle.dir/src/test02_pub_turtle.cpp.o"
 )
 

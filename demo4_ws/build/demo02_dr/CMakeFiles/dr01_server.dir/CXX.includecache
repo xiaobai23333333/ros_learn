@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wwb/ROS/demo2_ws/devel/include/demo02_dr/drConfig.h
+/home/wwb/ROS/demo4_ws/devel/include/demo02_dr/drConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,13 +24,13 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/wwb/ROS/demo2_ws/src/demo02_dr/src/dr01_server.cpp
+/home/wwb/ROS/demo4_ws/src/demo02_dr/src/dr01_server.cpp
 ros/ros.h
-/home/wwb/ROS/demo2_ws/src/demo02_dr/src/ros/ros.h
+/home/wwb/ROS/demo4_ws/src/demo02_dr/src/ros/ros.h
 dynamic_reconfigure/server.h
-/home/wwb/ROS/demo2_ws/src/demo02_dr/src/dynamic_reconfigure/server.h
+/home/wwb/ROS/demo4_ws/src/demo02_dr/src/dynamic_reconfigure/server.h
 demo02_dr/drConfig.h
-/home/wwb/ROS/demo2_ws/src/demo02_dr/src/demo02_dr/drConfig.h
+/home/wwb/ROS/demo4_ws/src/demo02_dr/src/demo02_dr/drConfig.h
 
 /opt/ros/noetic/include/dynamic_reconfigure/BoolParameter.h
 string
